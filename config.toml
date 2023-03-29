@@ -10,6 +10,9 @@ build_search_index = false
 # Output Dir for Github Pages
 output_dir = "public"
 
+# Theme is hook. https://github.com/InputUsername/zola-hook
+theme = "hook"
+
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
@@ -17,3 +20,13 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+links = [
+    #{ title = "Link display text", href = "http://example.com" },
+    # ...
+]
+
+users = [
+    {name = "Asjad", href="asjad"},
+    {name = "Jack", href="jack"},
+    {name = "Liam", href="liam"},
+]
