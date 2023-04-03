@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://misaim.github.io/side-launch/sitemap.xml
